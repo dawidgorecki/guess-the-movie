@@ -51,7 +51,7 @@ public class Game {
         if (guessed) {
             System.out.println("[!] You win! You have guessed '" + randomTitle + "' correctly.");
         } else {
-            System.out.println("[!] You lose. Correct title was " + randomTitle + "'.");
+            System.out.println("[!] You lose. Correct title was '" + randomTitle + "'.");
         }
     }
 

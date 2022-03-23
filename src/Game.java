@@ -18,7 +18,7 @@ public class Game {
 
     public void start() throws Exception {
         while (points > 0) {
-            System.out.println("You are guessing:" + getCoveredMovieTitle());
+            System.out.println("You are guessing: " + getCoveredMovieTitle());
             System.out.println("You have guessed (" + wrongLetters.length() / 2 + ") wrong letters:" + wrongLetters);
 
             System.out.print("Guess a letter: ");
